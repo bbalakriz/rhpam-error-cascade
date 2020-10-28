@@ -5,21 +5,21 @@
     <audit-mode>JPA</audit-mode>
     <persistence-mode>JPA</persistence-mode>
     <runtime-strategy>PER_PROCESS_INSTANCE</runtime-strategy>
-    <marshalling-strategies/>
-    <event-listeners/>
-    <task-event-listeners/>
-    <globals/>
+    <marshalling-strategies />
+    <event-listeners />
+    <task-event-listeners />
+    <globals />
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
             <identifier>new com.bala.cascade_error.EMCRestWorkItemHandler(classLoader);</identifier>
-            <parameters/>
+            <parameters />
             <name>Rest</name>
         </work-item-handler>
     </work-item-handlers>
-    <environment-entries/>
-    <configurations/>
-    <required-roles/>
-    <remoteable-classes/>
+    <environment-entries />
+    <configurations />
+    <required-roles />
+    <remoteable-classes />
     <limit-serialization-classes>true</limit-serialization-classes>
 </deployment-descriptor>
